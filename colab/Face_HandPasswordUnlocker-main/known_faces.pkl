@@ -1,0 +1,11 @@
+import face_recognition
+import pickle
+
+# โหลดภาพที่มีใบหน้า
+image = face_recognition.load_image_file("path_to_your_face_image.jpg")
+face_encoding = face_recognition.face_encodings(image)[0]  # ใช้ค่า encoding แรก
+
+# บันทึกลงในไฟล์
+known_faces = [face_encoding]  # หรือเพิ่มใบหน้าอื่นๆ ในลิสต์นี้
+with open('known_faces.pkl', 'wb') as f:
+    pickle.dump(known_faces, f)

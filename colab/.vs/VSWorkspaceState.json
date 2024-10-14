@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Face_HandPasswordUnlocker-main",
+    "\\Face_HandPasswordUnlocker-main\\face_recognition_models",
+    "\\Face_HandPasswordUnlocker-main\\face_recognition_models\\saved_faces"
+  ],
+  "SelectedNode": "\\Face_HandPasswordUnlocker-main\\ActivateHandByfaceDetection.py",
+  "PreviewInSolutionExplorer": false
+}
